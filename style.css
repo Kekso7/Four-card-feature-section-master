@@ -1,0 +1,125 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+
+    background-color: var(--Very-Light-Gray);
+
+
+}
+
+header {
+    max-width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0;
+    color: var(--Very-Dark-Blue);
+}
+
+h1 span {
+
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    flex-wrap: wrap;
+}
+
+.supervisor {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+    width: 350px;
+    border-top: 4px solid var(--Cyan);
+}
+
+.team-builder {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+    width: 350px;
+    border-top: 4px solid var(--Red);
+
+}
+
+
+
+.calculator {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+    width: 350px;
+    border-top: 4px solid var(--Blue);
+
+}
+
+.karma {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 15px;
+    width: 350px;
+    border-top: 4px solid var(--Orange);
+
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+
+}
+
+h2 {
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 10px;
+}
+
+.box {
+    transform: translateY(50%);
+}
+
+@media (max-width: 800px) {
+    .box {
+        transform: translateY(0);
+    }
+}
